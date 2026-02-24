@@ -1,0 +1,13 @@
+.projectsContainer {
+    background-color: #f9f9f9;
+    padding: 40px 0; 
+  }
+
+  .projectContent {
+    max-width: 1100px;
+    margin-left: 90px;
+  }
+  
+  .projectsHeader {
+    color: #ff5964;
+  }

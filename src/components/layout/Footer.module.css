@@ -1,0 +1,31 @@
+.footerContainer {
+    color: #fff;
+    background-color: #2d2e32;
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerLinks a {
+    color: #fff;
+}
+
+.footerLinks a:hover {
+   color: #ff5964;
+}
+
+.footerLinks {
+    display: flex;
+}
+
+@media (max-width: 700px) {
+ .footerContainer {
+    flex-direction: column;
+ }
+
+ .footerContainer h3 {
+    text-align: center;
+ }
+}
+

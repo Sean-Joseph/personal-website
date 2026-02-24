@@ -1,0 +1,50 @@
+.aboutHeader {
+    color: #ff5964;
+    font-size: 1.275rem;
+}
+
+.aboutContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.aboutImage {
+    border-radius: 5%;
+    height: 400px;
+    margin-top: 25px;
+}
+
+.aboutText {
+    max-width: 400px;
+}
+
+.aboutText p:nth-child(2) {
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+.aboutText p:nth-of-type(2) {
+    color:#767676;
+}
+
+@media (max-width: 1200px) {
+    .aboutContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutContainer p,.aboutContainer h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .aboutImage {
+        height: 300px;
+    }
+}
+
